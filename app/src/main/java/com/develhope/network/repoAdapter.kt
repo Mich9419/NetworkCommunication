@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.github.ui.Repo
 
 
 class RepoViewHolder(view: View): RecyclerView.ViewHolder(view) {
@@ -16,7 +17,7 @@ class RepoViewHolder(view: View): RecyclerView.ViewHolder(view) {
     }
 }
 
-abstract class RepoAdapter(val repoResults: List<RepoAdapter>): RecyclerView.Adapter<RepoViewHolder>() {
+abstract class RepoAdapter(val repoResults: List<Repo>): RecyclerView.Adapter<RepoViewHolder>() {
     abstract val name: CharSequence?
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RepoViewHolder {

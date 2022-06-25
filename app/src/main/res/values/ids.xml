@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="repo_name" type="id" />
+    <item name="repo_list" type="id" />
+    <item name="main_view" type="id" />
+    <item name="repo_loading_indicator" type="id" />
 </resources>
